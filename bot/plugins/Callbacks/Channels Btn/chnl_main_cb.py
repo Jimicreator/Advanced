@@ -44,7 +44,7 @@ async def cb_channel_list(bot, update: CallbackQuery):
 
     chat_id =  re.findall(r"channel_list\((.+)\)", query_data)[0]
     
-    text = "<i>Semms Like You Dont Have Any Channel Connected...</i>\n\n<i>Connect To Any Chat To Continue With This Settings...</i>"
+    text = "<i>🤔 Semms Like You Dont Have Any Channel Connected...</i>\n\n<i>Connect To Any Chat To Continue With This Settings 😎...</i>"
     
     db_list = await db.find_chat(int(chat_id))
     
@@ -86,7 +86,7 @@ async def cb_channel_list(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close 🚫", callback_data="close"
                 )
         ]
     ) 
