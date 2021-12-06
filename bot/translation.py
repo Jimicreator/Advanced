@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Hello {}!!</b>
-<i>Am Just An Adv. Filter Bot....😉
+<i>Am Just An Adv. Filter Bot. YOU CAN Call Me King 👑 
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
