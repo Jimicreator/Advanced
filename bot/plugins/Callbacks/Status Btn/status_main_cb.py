@@ -58,7 +58,7 @@ async def cb_status(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close 🚫", callback_data="close"
                 )
         ]
     ]
