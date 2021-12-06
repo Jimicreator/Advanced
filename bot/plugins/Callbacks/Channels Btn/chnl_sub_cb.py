@@ -128,7 +128,7 @@ async def cb_disconnect(bot, update: CallbackQuery):
     remove_active = await db.del_active(chat_id, int(channel_id))
     
     if not remove_active:
-        await update.answer("Couldnt Full Fill YOur Request...\n Report This @CrazyBotszGrp Along With Bot's Log", show_alert=True)
+        await update.answer("Couldnt Full Fill YOur Request...\n Report This @Jimibots_Group Along With Bot's Log", show_alert=True)
         return
     
     text= f"<i>Sucessfully Disconnected From</i> <code>{channel_name}</code>\n"
@@ -373,7 +373,7 @@ async def cb_filters_delete(bot, update: CallbackQuery):
     #     for ch in db_cnames:
     #         text+=f"\n                 <code>{ch}</code>\n"
         
-    #     text+=f"\n<i>Total Files In DB:</i> <code>{f_count}</code>\n"
+    #     text+=f"\n<i>Showing Total Files In DB:</i> <code>{f_count}</code>\n"
 
 
 
