@@ -39,7 +39,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev 😎", url="https://t.me/jm867"
                 ),
                 
             InlineKeyboardButton
@@ -50,7 +50,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close 🚫", callback_data="close"
                 )
         ]
     ]
